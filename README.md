@@ -27,3 +27,6 @@ Assets versionados para evitar colisiones de caché con otras ramas. Portada con
 
 ## Fase 1 — arquitectura pública
 Home con selector de universos, páginas retail.html, sets.html y atelier.html, navegación móvil, estilos específicos por universo. studio.html conserva la demo operativa previa y admite enlaces ?brief=, ?portal=1 y ?admin=1. Las imágenes son referencias externas, no trabajos reales. Fases 2 y 3 pendientes de aprobación. No se han realizado pruebas de navegador.
+
+## Fase 1 / revisión 4
+Mesa de trabajo como inicio, índice global y dock persistente. Tres laboratorios con ilustraciones SVG originales e interacciones de paleta, encuadre, luz y anotaciones. No son renders fotorrealistas ni 3D navegable. Se conserva studio.html y sus recursos. Fases 2 y 3 no iniciadas.
