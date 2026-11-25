@@ -1,17 +1,25 @@
-# VELORA — Beauty Studio + Business OS
+# MOTIV — Automotive Service & Workshop OS
 
-Demostración comercial interactiva para centros de estética no médica. Abrir index.html o servir con python -m http.server 8000. GitHub Pages puede publicar main desde la raíz.
+Demostración comercial de una plataforma para talleres y centros de automoción. Marca ficticia. Abrir index.html con un servidor estático (por ejemplo python -m http.server 8000) o GitHub Pages.
 
-## Funciones
-Catálogo filtrable, reserva por tratamiento y profesional, horarios con duración y detección local de solapamientos, consulta y cancelación mediante código, panel con agenda, estados, métricas, clientes, edición de tarifas y horarios, exportación CSV y datos ficticios de prueba. Club de membresía únicamente ilustrativo.
+## Recorrido de prueba
+1. Reserva un servicio con datos ficticios.
+2. Abre Panel del taller en el pie de página. En Citas, recepciona la cita.
+3. Abre la orden, avanza a Diagnóstico, añade conceptos y envía a Esperando aprobación.
+4. Vuelve a la web, entra en Mi garaje con código de cita u orden y correo ficticio, autoriza presupuesto.
+5. En el panel, avanza la orden, registra consumo de recambios, control de calidad y entrega. Descarga resumen de demo.
+6. Configuración → Cargar ejemplos permite probar órdenes, citas y solicitudes sin crear todo a mano.
+
+## Alcance
+Catálogo editable, estimador, reserva por capacidad y duración, portal de seguimiento, aprobación/rechazo, órdenes y estados, tablero por fases, historial de vehículos, clientes, inventario y consumo, alertas de stock, solicitudes de flotas y presupuestos, informes parciales y CSV. No incluye gestión efectiva de flotas externas ni contabilidad.
 
 ## Límites
-Prototipo local, no SaaS listo para producción. No introducir datos reales. Sin autenticación, API, base de datos compartida, correos, WhatsApp, cobros ni suscripciones. La disponibilidad solo se comprueba en el navegador actual; no es transaccional. Imágenes remotas de Unsplash sin verificación visual. No se han ejecutado pruebas de navegador.
+Datos de prueba en localStorage, sin autenticación ni aislamiento real, sin servidor compartido, sin transacciones concurrentes, sin facturación fiscal, sin cobros, sin correo/WhatsApp, sin gestión de archivos. No introducir datos reales. Fotos externas no verificadas. No se han ejecutado pruebas de navegador. Los precios son ilustrativos.
 
-## Paso a producción
-Backend con PostgreSQL, aislamiento por centro, autenticación y autorización por rol, reserva transaccional con exclusión de intervalos, auditoría, protección antispam, notificaciones y pagos mediante proveedores configurados, políticas de privacidad y conservación de datos, copias de seguridad y pruebas E2E. Evitar historias clínicas o datos sanitarios. Personalizar marca y fotografías por centro.
+## Producción
+API autenticada, roles de cliente/técnico/administración, aislamiento multiempresa, PostgreSQL con reservas transaccionales, trazabilidad de presupuestos versionados, stock transaccional, almacenamiento seguro, notificaciones, integración con facturación conforme a requisitos aplicables, backups y pruebas E2E. Validar demanda y competencia local antes de invertir.
 
-## Modelo comercial orientativo
-Alta y personalización 1500–3000 EUR; suscripción 99–249 EUR/mes según alcance, soporte y costes de proveedores. Validar disposición de pago antes de construir todas las integraciones.
+## Comercialización orientativa
+Implantación 2500–5000 EUR; cuota 149–349 EUR/mes según usuarios, módulos y soporte. Hipótesis no validada; no equivale a beneficio neto.
 
-La rama reformas conserva ÁUREA Studio.
+Ramas anteriores: reformas (ÁUREA), estetica (VELORA).
