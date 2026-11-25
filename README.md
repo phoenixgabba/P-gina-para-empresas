@@ -33,3 +33,6 @@ Mesa de trabajo como inicio, índice global y dock persistente. Tres laboratorio
 
 ## Fase 1 / edición cinematográfica 5
 Nueva portada fotográfica, tres disciplinas, índice global, navegación por teclado, estilos adaptables. Imágenes externas de referencia (créditos visibles), no portfolio real ni generación original. Las fuentes se localizaron en Unsplash; no se verificó su renderizado. Se conserva studio.html y la gestión anterior. Fases 2 y 3 pendientes.
+
+## Fase 2 — captación comercial
+Archivo conceptual filtrable y favoritos locales, servicios independientes, brief de cuatro pasos con borrador y referencias textuales, alquiler con filtros y cesta, integración con el mismo almacenamiento de Production OS. No hay subida real de archivos, autenticación, pagos ni disponibilidad compartida. Fase 3 pendiente. Pruebas de navegador pendientes.
