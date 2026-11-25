@@ -24,3 +24,6 @@ reformas — ÁUREA; estetica — VELORA; mecánica — MOTIV; main — FORMA.
 
 ## Visual edition 02
 Assets versionados para evitar colisiones de caché con otras ramas. Portada con composición SVG integrada, sin fotografía remota. El resto de las referencias fotográficas siguen siendo externas.
+
+## Fase 1 — arquitectura pública
+Home con selector de universos, páginas retail.html, sets.html y atelier.html, navegación móvil, estilos específicos por universo. studio.html conserva la demo operativa previa y admite enlaces ?brief=, ?portal=1 y ?admin=1. Las imágenes son referencias externas, no trabajos reales. Fases 2 y 3 pendientes de aprobación. No se han realizado pruebas de navegador.
