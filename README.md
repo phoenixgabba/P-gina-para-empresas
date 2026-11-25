@@ -36,3 +36,6 @@ Nueva portada fotográfica, tres disciplinas, índice global, navegación por te
 
 ## Fase 2 — captación comercial
 Archivo conceptual filtrable y favoritos locales, servicios independientes, brief de cuatro pasos con borrador y referencias textuales, alquiler con filtros y cesta, integración con el mismo almacenamiento de Production OS. No hay subida real de archivos, autenticación, pagos ni disponibilidad compartida. Fase 3 pendiente. Pruebas de navegador pendientes.
+
+## Fase 2 / integración v7
+Navegación comercial visible en todas las páginas públicas, accesos por necesidad desde inicio, estudios destacados por disciplina con apertura directa, consulta de alquiler por fechas desde inicio, brief visual contextual y fichas de alquiler. Las imágenes y datos siguen siendo conceptuales. Fase 3 pendiente de aprobación.
