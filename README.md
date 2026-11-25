@@ -30,3 +30,6 @@ Home con selector de universos, páginas retail.html, sets.html y atelier.html, 
 
 ## Fase 1 / revisión 4
 Mesa de trabajo como inicio, índice global y dock persistente. Tres laboratorios con ilustraciones SVG originales e interacciones de paleta, encuadre, luz y anotaciones. No son renders fotorrealistas ni 3D navegable. Se conserva studio.html y sus recursos. Fases 2 y 3 no iniciadas.
+
+## Fase 1 / edición cinematográfica 5
+Nueva portada fotográfica, tres disciplinas, índice global, navegación por teclado, estilos adaptables. Imágenes externas de referencia (créditos visibles), no portfolio real ni generación original. Las fuentes se localizaron en Unsplash; no se verificó su renderizado. Se conserva studio.html y la gestión anterior. Fases 2 y 3 pendientes.
