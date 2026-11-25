@@ -1,25 +1,23 @@
-# MOTIV — Automotive Service & Workshop OS
+# FORMA — Creative Production Studio
 
-Demostración comercial de una plataforma para talleres y centros de automoción. Marca ficticia. Abrir index.html con un servidor estático (por ejemplo python -m http.server 8000) o GitHub Pages.
+Web editorial y prototipo interactivo de gestión para estudios de escaparatismo, escenografía, fabricación artesanal y producción creativa. Marca ficticia. Servir con `python -m http.server 8000` o GitHub Pages desde main.
 
-## Recorrido de prueba
-1. Reserva un servicio con datos ficticios.
-2. Abre Panel del taller en el pie de página. En Citas, recepciona la cita.
-3. Abre la orden, avanza a Diagnóstico, añade conceptos y envía a Esperando aprobación.
-4. Vuelve a la web, entra en Mi garaje con código de cita u orden y correo ficticio, autoriza presupuesto.
-5. En el panel, avanza la orden, registra consumo de recambios, control de calidad y entrega. Descarga resumen de demo.
-6. Configuración → Cargar ejemplos permite probar órdenes, citas y solicitudes sin crear todo a mano.
+## Recorrido
+1. Explorar archivo conceptual filtrable y crear brief de proyecto en tres pasos.
+2. En Production OS (pie de página), abrir proyectos o cargar ejemplos desde Configuración.
+3. Abrir un proyecto, introducir concepto y presupuesto, avanzar a Presupuesto.
+4. Volver al área cliente con código y correo ficticio; aprobar o solicitar revisión.
+5. Gestionar tareas, hitos, gastos, horas, consumo de materiales y fases hasta entrega/desmontaje.
+6. Seleccionar objetos y fechas de alquiler, solicitar y confirmar desde administración; registrar entrega y devolución.
 
-## Alcance
-Catálogo editable, estimador, reserva por capacidad y duración, portal de seguimiento, aprobación/rechazo, órdenes y estados, tablero por fases, historial de vehículos, clientes, inventario y consumo, alertas de stock, solicitudes de flotas y presupuestos, informes parciales y CSV. No incluye gestión efectiva de flotas externas ni contabilidad.
+## Módulos
+Resumen, CRM, pipeline, calendario de fechas, tareas/equipo, presupuestos, taller/materiales, alquileres, catálogo, clientes, costes y márgenes parciales, configuración. Exportación CSV y resúmenes de texto.
 
 ## Límites
-Datos de prueba en localStorage, sin autenticación ni aislamiento real, sin servidor compartido, sin transacciones concurrentes, sin facturación fiscal, sin cobros, sin correo/WhatsApp, sin gestión de archivos. No introducir datos reales. Fotos externas no verificadas. No se han ejecutado pruebas de navegador. Los precios son ilustrativos.
+Demo local, sin autenticación, base de datos compartida, pagos, correo, subida de archivos, render 3D, firma electrónica ni facturación fiscal. No usar datos reales. Las imágenes externas son referencias conceptuales no verificadas visualmente. No se han ejecutado pruebas de navegador. Las reservas de alquiler solo se controlan en este navegador y no son transaccionales. El calendario es una lista cronológica, no una agenda de cuadrícula. Los costes son parciales y no constituyen contabilidad.
 
 ## Producción
-API autenticada, roles de cliente/técnico/administración, aislamiento multiempresa, PostgreSQL con reservas transaccionales, trazabilidad de presupuestos versionados, stock transaccional, almacenamiento seguro, notificaciones, integración con facturación conforme a requisitos aplicables, backups y pruebas E2E. Validar demanda y competencia local antes de invertir.
+API y PostgreSQL con aislamiento por estudio, permisos por rol, almacenamiento privado de referencias y archivos, versionado inmutable de propuestas, aceptación trazable, control transaccional de stock y fechas, notificaciones, facturación e integraciones de pago, auditoría y copias. Validar con estudios reales antes de comercializar.
 
-## Comercialización orientativa
-Implantación 2500–5000 EUR; cuota 149–349 EUR/mes según usuarios, módulos y soporte. Hipótesis no validada; no equivale a beneficio neto.
-
-Ramas anteriores: reformas (ÁUREA), estetica (VELORA).
+## Ramas
+reformas — ÁUREA; estetica — VELORA; mecánica — MOTIV; main — FORMA.
