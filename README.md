@@ -39,3 +39,6 @@ Archivo conceptual filtrable y favoritos locales, servicios independientes, brie
 
 ## Fase 2 / integración v7
 Navegación comercial visible en todas las páginas públicas, accesos por necesidad desde inicio, estudios destacados por disciplina con apertura directa, consulta de alquiler por fechas desde inicio, brief visual contextual y fichas de alquiler. Las imágenes y datos siguen siendo conceptuales. Fase 3 pendiente de aprobación.
+
+## Fase 3 / v8
+Portal cliente y Production OS independientes, enlaces públicos actualizados, historial de versiones de presupuestos nuevos, proveedores, compras con recepción de stock, logística, documentos de texto, cobros manuales ficticios, alertas calculadas y exportación JSON. Persistencia local compatible; no backend, permisos seguros, sincronización multiusuario, archivos binarios, pagos reales, firma ni notificaciones externas. No usar datos reales. Pruebas de navegador pendientes.
