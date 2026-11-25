@@ -1,27 +1,17 @@
-# ÁUREA Studio
+# VELORA — Beauty Studio + Business OS
 
-Demostración comercial de una web premium para empresas de reformas e interiorismo. Marca y proyectos conceptuales, no clientes reales.
+Demostración comercial interactiva para centros de estética no médica. Abrir index.html o servir con python -m http.server 8000. GitHub Pages puede publicar main desde la raíz.
 
-## Visualización
+## Funciones
+Catálogo filtrable, reserva por tratamiento y profesional, horarios con duración y detección local de solapamientos, consulta y cancelación mediante código, panel con agenda, estados, métricas, clientes, edición de tarifas y horarios, exportación CSV y datos ficticios de prueba. Club de membresía únicamente ilustrativo.
 
-Abrir `index.html` en un navegador o ejecutar `python -m http.server 8000` desde la raíz y visitar http://localhost:8000.
+## Límites
+Prototipo local, no SaaS listo para producción. No introducir datos reales. Sin autenticación, API, base de datos compartida, correos, WhatsApp, cobros ni suscripciones. La disponibilidad solo se comprueba en el navegador actual; no es transaccional. Imágenes remotas de Unsplash sin verificación visual. No se han ejecutado pruebas de navegador.
 
-## Publicación en GitHub Pages
+## Paso a producción
+Backend con PostgreSQL, aislamiento por centro, autenticación y autorización por rol, reserva transaccional con exclusión de intervalos, auditoría, protección antispam, notificaciones y pagos mediante proveedores configurados, políticas de privacidad y conservación de datos, copias de seguridad y pruebas E2E. Evitar historias clínicas o datos sanitarios. Personalizar marca y fotografías por centro.
 
-Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save. La disponibilidad de Pages depende de la visibilidad y plan del repositorio.
+## Modelo comercial orientativo
+Alta y personalización 1500–3000 EUR; suscripción 99–249 EUR/mes según alcance, soporte y costes de proveedores. Validar disposición de pago antes de construir todas las integraciones.
 
-## Personalización por cliente
-
-- Cambiar marca, servicios, textos, fotografías y variables CSS de `:root`.
-- Sustituir fotografías externas por archivos propios autorizados y optimizados. Las URLs de muestra no se han validado en navegador.
-- Reemplazar el formulario de demostración por un endpoint con validación de servidor, protección antispam y tratamiento de datos adecuado. Actualmente no envía ni guarda datos.
-- Añadir datos de contacto, zona de servicio, dominio, páginas legales reales y metadatos sociales; retirar avisos de demo solo tras sustituir contenido ficticio.
-- Revisar accesibilidad, rendimiento y funcionamiento en dispositivos reales antes de entregar.
-
-## Propuesta comercial orientativa (no tarifa validada)
-
-Web personalizada: 1.200–2.500 EUR. Mantenimiento opcional: 49–99 EUR/mes, con alcance pactado. Dominio, fotografía, redacción y servicios externos aparte según presupuesto.
-
-## Tecnología
-
-HTML, CSS y JavaScript nativos, sin dependencias de compilación. Fotografías remotas de Unsplash. No hay backend ni analítica instalada.
+La rama reformas conserva ÁUREA Studio.
