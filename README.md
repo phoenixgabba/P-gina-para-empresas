@@ -21,3 +21,6 @@ API y PostgreSQL con aislamiento por estudio, permisos por rol, almacenamiento p
 
 ## Ramas
 reformas — ÁUREA; estetica — VELORA; mecánica — MOTIV; main — FORMA.
+
+## Visual edition 02
+Assets versionados para evitar colisiones de caché con otras ramas. Portada con composición SVG integrada, sin fotografía remota. El resto de las referencias fotográficas siguen siendo externas.
