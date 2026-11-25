@@ -42,3 +42,6 @@ Navegación comercial visible en todas las páginas públicas, accesos por neces
 
 ## Fase 3 / v8
 Portal cliente y Production OS independientes, enlaces públicos actualizados, historial de versiones de presupuestos nuevos, proveedores, compras con recepción de stock, logística, documentos de texto, cobros manuales ficticios, alertas calculadas y exportación JSON. Persistencia local compatible; no backend, permisos seguros, sincronización multiusuario, archivos binarios, pagos reales, firma ni notificaciones externas. No usar datos reales. Pruebas de navegador pendientes.
+
+## v9 — refinement and server foundation
+Mobile navigation and grouped OS modules, accessibility and image fallback, quote version check, rental transition safeguards. New server/ foundation with PostgreSQL, sessions, scoped projects, quotes, acceptance evidence, uploads, Stripe and SMTP adapters; not deployed or connected to existing demo. See server/README.md for explicit gaps. CI definition added; execution not verified.
